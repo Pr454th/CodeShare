@@ -27,6 +27,7 @@ content.addEventListener("click", function () {
 
 const sendBtn = document.getElementById("send-btn");
 const receiveBtn = document.getElementById("receive-btn");
+const copyBtn = document.getElementById("copy-btn");
 
 // action to be performed on clicking the send button
 sendBtn.addEventListener("click", () => {
@@ -67,18 +68,25 @@ sendBtn.addEventListener("click", () => {
 receiveBtn.addEventListener("click", () => {
   // trim the input to remove any extra spaces
   const reqnum = document.getElementById("reqnum").value.trim();
+  copyBtn.style.display="inline";
   fetch(`https://extension-iota.vercel.app/getnote/${reqnum}`)
     .then((response) => response.json())
     .then((data) => {
       document.getElementById("content").innerHTML = data.note[0].note;
-      navigator.clipboard
-        .writeText(document.getElementById("content").value)
-        .then(() => {
-          console.log(`Copied ${textToCopy} to clipboard`);
-        })
-        .catch((err) => {
-          console.error("Failed to copy text: ", err);
-        });
     })
     .catch((error) => console.error(error));
 });
+
+//copy button action
+copyBtn.addEventListener('click',()=>{
+  navigator.clipboard
+  .writeText(document.getElementById("content").value)
+  .then(() => {
+    // console.log(`Copied ${textToCopy} to clipboard`);
+    copyBtn.className="btn btn-outline-success mb-2";
+    copyBtn.innerText="Copied!";
+  })
+  .catch((err) => {
+    console.error("Failed to copy text: ", err);
+  });
+})

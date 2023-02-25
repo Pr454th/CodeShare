@@ -6,3 +6,6 @@ body {
   resize: none;
   height: 300px;
 }
+#copy-btn{
+  display:none;
+}
