@@ -1,21 +1,36 @@
+# 🚀 CodeShare - Extension for Firefox 🚀
+The CodeShare Extension for Firefox allows users to quickly and easily share code snippets or text with others. This extension simplifies the sharing process, reducing the number of steps involved.
 
-# Code Share
+## 📥 Installation
+Install the extension from the [firefox add-ons store](https://addons.mozilla.org/en-US/firefox/addon/codeshare/)
 
-With this extension, users can select a piece of code or text and easily share it with others. The extension is designed to simplify the process of sharing codes and text by reducing the number of steps involved.
+## 📝 Usage
+To use the Code Share Extension for Firefox, follow these simple steps:
 
-Link:https://addons.mozilla.org/en-US/firefox/addon/codeshare
+- Copy the code snippet or text you wish to share.
+- Click on the Code Share Extension for Firefox icon in your Firefox toolbar.
+- Click on the text area to paste the code or text into the field in the extension popup.
+- Click the "Send" button to generate a short shareable code.
+- Share the code with others via email, social media, or any other method.
 
-## Updates
+## 🌟 Features
+The Code Share Extension for Firefox includes the following features:
 
-### Version 2.1
+- Simple and easy-to-use interface.
+- Quick and efficient sharing of code and text.
+- Instantly generates short shareable code.
+- Lightweight and unobtrusive.
+- Works right in your browser, without having to open any website
 
-    1.Added a copy button on receiver side upon clicking receive
-    2.Removed the bug where an image tag opens every time the extension is opened.
-Contributor:[Pragadesh BS](https://github.com/PragadeshBS)
+## 🤝 Contributing
+Contributions to the Code Share Extension for Firefox are welcome and encouraged! To contribute, please follow these steps:
+- Fork this repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and commit them.
+- Push your changes to your forked repository.
+- Submit a pull request to the main repository.
+## 📄 License
+This project is licensed under the Mozilla Public License
 
-### Version 2.0
-
-    1.Updated the UI.
-    2.Automatic paste function while clicking into the text-area for sending
-    3.Automatic copy function after receiving the content with the code.
-    4.Included a timer for the expiration note.
+## 📧 Contact
+If you have any questions or comments about the CodeShare Extension for Firefox, please feel free to contact me. I would love to hear from you!
