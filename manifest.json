@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "CodeShare",
-  "version": "2.1",
-  "description": "CodeShare enables one to share text snippets with others easily and quickly.",
+  "version": "2.2",
+  "description": "CodeShare enables one to share text snippets with others securely and quickly.",
   "icons": {
     "48": "icons/beasts-48.png"
   },
