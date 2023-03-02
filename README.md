@@ -6,7 +6,7 @@ Install the extension from the [firefox add-ons store](https://addons.mozilla.or
 
 ## 📝 Usage
 To use the Code Share Extension for Firefox, follow these simple steps:
-
+ 
 - Copy the code snippet or text you wish to share.
 - Click on the Code Share Extension for Firefox icon in your Firefox toolbar.
 - Click on the text area to paste the code or text into the field in the extension popup.
