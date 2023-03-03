@@ -21,3 +21,14 @@ body {
   border: 0;
   cursor: pointer;
 }
+
+#rec-password{
+  float:left;
+}
+
+#receive-btn{
+  float:right;
+}
+#send-btn{
+  float:right;
+}
